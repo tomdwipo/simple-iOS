@@ -19,7 +19,6 @@ class ViewControllerTests: XCTestCase {
         XCTAssertNotNil(sut.specializationTextField)
         XCTAssertNotNil(sut.specializationButton)
         XCTAssertNotNil(sut.tableView)
-        XCTAssertNotNil(sut.pickerView)
         XCTAssertNotNil(sut.tableView.dataSource)
         XCTAssertNotNil(sut.tableView.delegate)
 

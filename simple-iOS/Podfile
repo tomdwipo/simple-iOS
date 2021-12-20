@@ -6,6 +6,7 @@ target 'simple-iOS' do
   use_frameworks!
 
   # Pods for simple-iOS
+  pod 'Kingfisher', '~> 7.0'
 
   target 'simple-iOSTests' do
     inherit! :search_paths
